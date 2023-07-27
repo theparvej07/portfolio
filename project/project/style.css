@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.search-field {
+    display: flex;
+    gap: 30px;
+}
+
+input {
+    padding: 4px 10px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-left-section h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    font-size: 2.5 rem;
+}
+
+.hero-left-section p {
+    font-weight: 500;
+}
+
+.hero-left-section p span {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(18, 155, 155);
+}
+
+.hero-right-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-right-section-btns {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-right-section img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer ul li a :hover {
+    font-weight: 900;
+    background-color: #fff;
+    color: rgba(12, 1, 1, 0.822);
+    text-decoration: underline;
+}
+
+footer ul li a {
+    height: 30px;
+    width: 30px;
+}
